@@ -7,7 +7,7 @@ import "./styles/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <Provider store={store}>
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Home />
     </Router>
   </Provider>
