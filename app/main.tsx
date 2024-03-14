@@ -6,9 +6,9 @@ import { Home } from "../pages/Home";
 import "./styles/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <Provider store={store}>
-    <Router basename={import.meta.env.BASE_URL}>
+  <Router basename={import.meta.env.BASE_URL}>
+    <Provider store={store}>
       <Home />
-    </Router>
-  </Provider>
+    </Provider>
+  </Router>
 );
