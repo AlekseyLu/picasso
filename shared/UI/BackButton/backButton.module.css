@@ -1,0 +1,30 @@
+.backButton {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  font-size: 1.2rem;
+  line-height: 100%;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.backButton:focus-visible {
+  outline: none;
+}
+
+.backButton:focus {
+  outline: 1px solid orange;
+  outline-offset: 3px;
+}
+
+.backButton:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.backButton:active {
+  outline: none;
+  background-color: #000;
+}
